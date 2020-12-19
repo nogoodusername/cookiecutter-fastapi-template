@@ -7,7 +7,8 @@ help:
 	@echo "When running any of run commands ensure that you have activated your python virtual environment"
 	@echo "\033[33;36m"
 	@echo "init			Install required packages."
-	@echo "runserver		Run django server {{cookiecutter.service_port}}"
+	@echo "runserver		Run fastapi server {{cookiecutter.service_port}}"
+	@echo "runtests		Run pytests {{cookiecutter.service_port}}"
 
 init:
 	pip install -r app/requirements/development.txt
