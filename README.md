@@ -84,7 +84,15 @@ services:
       - {service_port}:{service_port}
 ```
 
+#### Docker image configurations
+
+Find additional configurations for [tiangolo/uvicorn-gunicorn-fastapi-docker](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker):    
+* [Additional Usage](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker#advanced-usage)
+* [WORKER_PER_CORE](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker#workers_per_core)
+* [WEB_CONCURRENCY](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker#web_concurrency)
+* [PORT](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker#port)
+
 ---
 
 ### Sample project generated from this template
-https://github.com/nogoodusername/py-useless-package/
+https://github.com/nogoodusername/fastapi-userless-service
