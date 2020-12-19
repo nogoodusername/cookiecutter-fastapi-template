@@ -77,8 +77,9 @@ services:
   api:
     container_name: api
     image: "[docker-image]:latest"
-    env_file:
-      - .env
+    environment:
+      - FLAVOUR=prod 
+      - PORT={service_port}
     ports:
       - {service_port}:{service_port}
 ```
