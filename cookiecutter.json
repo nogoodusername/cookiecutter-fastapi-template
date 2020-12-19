@@ -1,0 +1,10 @@
+{
+    "author_name": "Kshitij Nagvekar",
+    "author_email": "ksnagvekar@gmail.com",
+
+    "service_name": "nameless",
+    "service_description": "A cookiecutter template for FastAPI minimal service",
+    "service_port": "5000",
+    
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
