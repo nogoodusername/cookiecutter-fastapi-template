@@ -8,7 +8,7 @@ help:
 	@echo "\033[33;36m"
 	@echo "init			Install required packages."
 	@echo "runserver		Run fastapi server {{cookiecutter.service_port}}"
-	@echo "runtests		Run pytests {{cookiecutter.service_port}}"
+	@echo "runtests		Run pytests"
 
 init:
 	pip install -r app/requirements/development.txt
